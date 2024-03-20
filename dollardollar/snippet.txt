@@ -1,0 +1,15 @@
+<model-viewer src="dollar2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.014404034048481966m 1.56544511315153m 0.08716038075797779m" data-normal="-0.028009010409972113m 0.4508694882580656m 0.8921503235967381m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Benjamin Franklin
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
