@@ -1,0 +1,22 @@
+<model-viewer src="slot_machine44444.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.024296488118888113m 0.1645941185283827m 0.06524599228899636m" data-normal="0m 0.9997852303861122m 0.02072421534796232m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Buttons
+        </div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.09538705282093643m 0.2978893422790567m 0.023172630629271676m" data-normal="0.6342588953562078m 0.07555055260278408m 0.7694204102198856m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Handle</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.01711233819079958m 0.20879930880542033m 0.017866256745060528m" data-normal="-0.000021122249662400283m 0.3967404842223166m 0.9179308185984891m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Screen
+        </div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.09893697470965862m 0.1451776010295886m -0.009011706504580799m" data-normal="-1m -5.4210191342430384e-24m -5.551115123125783e-17m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Machine</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
